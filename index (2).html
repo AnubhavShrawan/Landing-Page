@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <meta name="description" content="Modern responsive landing page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="#">Brand</a>
+            <nav class="nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Toggle menu">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <ul id="primary-menu" class="nav-list">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a class="btn btn-outline" href="#pricing">Sign in</a>
+                <a class="btn btn-primary" href="#pricing">Get started</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <h1 class="hero-title">Build beautiful landing pages fast</h1>
+                    <p class="hero-subtitle">A modern, responsive template you can adapt to your design. Built with accessible HTML, clean CSS, and minimal JS.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#pricing">Start free</a>
+                        <a class="btn btn-ghost" href="#features">Learn more</a>
+                    </div>
+                    <div class="hero-meta">
+                        <div class="stat">
+                            <span class="stat-value">2k+</span>
+                            <span class="stat-label">teams onboarded</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">99.9%</span>
+                            <span class="stat-label">uptime</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value"><span aria-hidden="true">★</span> 4.9</span>
+                            <span class="stat-label">avg. rating</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <div class="media-card">
+                        <img src="assets/images/placeholder-hero.png" alt="Product preview" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Powerful features</h2>
+                    <p>Everything you need to launch and grow.
+                    </p>
+                </header>
+                <div class="feature-grid">
+                    <article class="feature-item">
+                        <div class="feature-icon" aria-hidden="true">⚡</div>
+                        <h3>Fast setup</h3>
+                        <p>Start with clean, accessible markup and a flexible style system.</p>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-icon" aria-hidden="true">🎯</div>
+                        <h3>Focused UX</h3>
+                        <p>Purposeful spacing, clear hierarchy, and strong call-to-actions.</p>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-icon" aria-hidden="true">🔒</div>
+                        <h3>Secure</h3>
+                        <p>Best practices baked in for performance and reliability.</p>
+                    </article>
+                    <article class="feature-item">
+                        <div class="feature-icon" aria-hidden="true">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Looks great on mobile, tablet, and desktop out of the box.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <header class="section-header">
+                    <h2>What customers say</h2>
+                    <p>Real results from real teams.</p>
+                </header>
+                <div class="testimonial-grid">
+                    <figure class="testimonial">
+                        <blockquote>
+                            "This template saved us weeks and looks incredible."
+                        </blockquote>
+                        <figcaption>
+                            <img src="assets/images/avatar-1.png" alt="Ava, Product Lead" loading="lazy">
+                            <div>
+                                <strong>Ava</strong>
+                                <span>Product Lead</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="testimonial">
+                        <blockquote>
+                            "Clean structure, easy to customize, and fast."
+                        </blockquote>
+                        <figcaption>
+                            <img src="assets/images/avatar-2.png" alt="Liam, Founder" loading="lazy">
+                            <div>
+                                <strong>Liam</strong>
+                                <span>Founder</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="testimonial">
+                        <blockquote>
+                            "Our conversion rate improved on day one."
+                        </blockquote>
+                        <figcaption>
+                            <img src="assets/images/avatar-3.png" alt="Maya, Growth" loading="lazy">
+                            <div>
+                                <strong>Maya</strong>
+                                <span>Growth</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Simple pricing</h2>
+                    <p>Start free. Upgrade when you grow.</p>
+                </header>
+                <div class="pricing-grid">
+                    <article class="plan">
+                        <h3>Free</h3>
+                        <p class="price">$0<span>/mo</span></p>
+                        <ul class="plan-features">
+                            <li>Basic features</li>
+                            <li>Community support</li>
+                            <li>Limited usage</li>
+                        </ul>
+                        <a class="btn btn-ghost" href="#">Get started</a>
+                    </article>
+                    <article class="plan plan-featured" aria-label="Recommended plan">
+                        <div class="badge">Popular</div>
+                        <h3>Pro</h3>
+                        <p class="price">$19<span>/mo</span></p>
+                        <ul class="plan-features">
+                            <li>All core features</li>
+                            <li>Email support</li>
+                            <li>Higher limits</li>
+                        </ul>
+                        <a class="btn btn-primary" href="#">Start trial</a>
+                    </article>
+                    <article class="plan">
+                        <h3>Business</h3>
+                        <p class="price">$49<span>/mo</span></p>
+                        <ul class="plan-features">
+                            <li>Advanced features</li>
+                            <li>Priority support</li>
+                            <li>Custom limits</li>
+                        </ul>
+                        <a class="btn btn-outline" href="#">Contact sales</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq reveal" id="faq">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Frequently asked questions</h2>
+                    <p>Answers to common questions.
+                    </p>
+                </header>
+                <div class="faq-list" role="list">
+                    <details class="faq-item">
+                        <summary>How do I customize the design?</summary>
+                        <p>Edit tokens in <code>styles.css</code> under <strong>:root</strong> and adjust section classes.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Is it mobile responsive?</summary>
+                        <p>Yes, it uses a fluid grid and breakpoints for small, medium, and large screens.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Can I use my own fonts and images?</summary>
+                        <p>Place files in <code>assets/fonts</code> and <code>assets/images</code> and update the CSS.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-cta reveal" id="contact">
+            <div class="container contact-inner">
+                <div class="cta-copy">
+                    <h2>Ready to ship something great?</h2>
+                    <p>Tell us about your project goals and timelines. We’ll get back within 1 business day.</p>
+                </div>
+                <form class="cta-form" action="#" method="post" onsubmit="event.preventDefault()">
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="What are you building?" required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button class="btn btn-primary" type="submit">Send message</button>
+                        <span class="form-note">We respect your privacy.</span>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a class="logo" href="#">Brand</a>
+                <p>© <span id="year"></span> Brand, Inc. All rights reserved.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+                <a href="#">Privacy</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
